@@ -1,0 +1,70 @@
+.createContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/create.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aliceblue;
+
+}
+
+.formContainer{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: lightblue;
+    opacity: 0.90;
+    box-shadow: 0 0 10px lightblue;
+    padding-left: 2%;
+}
+
+.formContainer > div > input{
+    width: 94%;
+    
+}
+
+.formContainer > div > input:hover{
+    border: 1px solid blue;
+    
+}
+.formContainer > div > label{
+    color: blue;
+    font-weight: bolder;
+    font-size: large;
+    background-color: aliceblue;
+    box-shadow: 0 0 20px white;
+    
+}
+
+.mainButton{
+    background-color: black;
+    box-shadow: 0 0 10px yellow;
+    color: yellow;
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 75%;
+}
+.mainButton:hover{
+    
+    box-shadow: 0 0 20px yellow;
+    text-shadow: 0 0 10px yellow;
+    transform: scale(1.2);
+}
+
+div >  span{
+    display: inline-block;
+    color: red;
+    text-shadow: 0 0 20px red;
+    background-color: aliceblue;
+}
+
+.types{
+    background-color: blue;
+    color:aliceblue
+}

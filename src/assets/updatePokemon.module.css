@@ -1,0 +1,54 @@
+.updatePokemonContainer{
+    width: 100vw;
+    position: absolute;
+    height: 100vh;
+    background-image: url('./img/update.png');
+}
+
+.updateFormContainer{
+    width: 50%;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: lightblue;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px rgb(0, 191, 255);
+
+}
+
+.updateFormContainer div input{
+    width: 95%;
+    margin-top: 1%;
+}
+.updateFormContainer div input:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 1px 10px lightblue;
+}
+.updateFormContainer div label{
+    color: black;
+    background-color: rgb(194, 233, 247);
+    font-weight: bold;
+}
+
+.typesUpdate{
+    background-color: blue;
+    color: white;
+}
+ 
+.updateButton{
+    width: 90%;
+    align-self: center;
+    font-weight: bolder;
+    color: yellow;
+    background-color: black;
+}
+.updateButton:hover{
+   transform: scale(1.01);
+    color: yellow;
+    background-color: rgb(82, 82, 82);
+    border: none;
+    box-shadow: 0 0 10px yellow;
+    cursor: pointer;
+}

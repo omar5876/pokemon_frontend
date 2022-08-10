@@ -1,0 +1,74 @@
+.containerDetails{
+    display: flex;
+    justify-content: center;
+    background-image: url('./img/detailsBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.cardDetailContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    background-color: lightblue;
+    border-radius: 5px;
+    margin: 5px;
+    position: relative;
+    box-shadow: 0 0 20px rgb(0, 191, 255);
+    
+}
+
+.cardDetailsDeleteButton{
+    width: 20%;
+    padding: 5px 10px;
+    background-color: red;
+    color: aliceblue;
+    position: absolute;
+    right: 2%;
+    top: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+.cardDetailsDeleteButton:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px red;
+}
+
+.cardDetailsUpdateButton{
+    width: 20%;
+    padding: 5px 10px;
+    background-color: green;
+    color: aliceblue;
+    position: absolute;
+    left: 2%;
+    top: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.cardDetailsUpdateButton:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px green;
+}
+
+.imgDetailContainer{
+    width: 90%;
+}
+
+.imgDetailContainer > img{
+    width: 90%;
+}
+
+.cardDetailContainer > div{
+    width: 50%;
+}
+
+
+
+.cardDetailTitleContainer{
+    text-align: center;
+}
